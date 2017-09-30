@@ -1,0 +1,82 @@
+.fd_videoPrefecture{
+
+}
+.fd_videoPrefecture .fd_tab{
+	width: 100%;
+	overflow:auto;
+}
+.fd_videoPrefecture .fd_tab::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+ }
+.fd_videoPrefecture .fd_tab_list{
+	// width: 300%;
+	height: 2.85rem;
+	// background: red;
+	display: flex;
+	display: -webkit-flex; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */  
+	display: -moz-flex; /* Firefox 17- */  
+	display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */  
+	display: -moz-flex; /* Firefox 18+ */
+}
+.fd_videoPrefecture a{
+	display: block;
+	height: 5.7rem;
+	width: 7rem;
+	text-align: center;
+}
+.fd_videoPrefecture a img{
+	height: 1.75rem;
+	width: 1.75rem;
+
+}
+.fd_videoPrefecture a span{
+ 	font-size:0.6rem;
+ 	display: block;
+	width: 3.5rem;
+}
+
+
+// 菜单列表
+.show_food_list{
+	width: 100%;
+}
+.show_food_list .show_img{
+	height: 9rem;
+	width: 17.5rem;
+	border-radius: 0.5rem;
+	background: red;
+	margin:0 auto;
+	overflow:hidden;
+	margin-top:0.5rem;
+}
+.show_food_list img{
+	height: 9rem;
+	width: 17.5rem;
+	text-align: center;
+}
+.show_food_list h4{
+	font-size: 0.7rem;
+	text-align: center;
+	line-height: 2rem;
+}
+.show_data_list{
+	display: flex;
+	justify-content:space-between;
+	padding: 0 3.5rem;
+}
+.show_data_list img{
+	width: 0.75rem;
+	height: 0.75rem;
+
+}
+.show_data_list .food_data span{
+	border-right: 1px solid #999;
+	padding:0 0.6rem 0 0.2rem;
+	color: #999;
+}
+.show_data_list .food_data span:last-child{
+	// border-right:none;
+	// border-right:1px solid red;
+}
